@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 body {
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 	scroll-behavior: smooth;
 	position: relative;
 }
@@ -760,7 +760,7 @@ display: flex;
 	color: #091d3e;
 }
 .sec-contact form .input {
-	margin: 30px 20px;
+	margin: 30px auto;
 	gap: 20px;
 	display: flex;
 }
@@ -789,10 +789,9 @@ display: flex;
 	position: relative;
 }
 .sec-contact form textarea {
-	width: 94%;
+	width: 100%;
 	height: 140px;
 	padding: 10px;
-	margin: 0 0px 0 19px;
 }
 .sec-contact form  textarea::placeholder{
 	color: #091d3e;
@@ -800,7 +799,7 @@ display: flex;
 .sec-contact form .input-text svg {
 	position: absolute;
 	top: 15px;
-	right: 30px;
+	right: 10px;
 	color: #0013ff;
 }
 .sec-contact form button {
@@ -1023,17 +1022,3 @@ footer .copy .p p {
 	color: white;
 }
 /* end button top */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
